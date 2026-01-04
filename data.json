@@ -1,0 +1,132 @@
+{
+    "branding": {
+        "bot_name": "Platinum Enterprise",
+        "embed_color": "#00AEEF",
+        "footer_text": "Platinum Enterprise v6.5",
+        "status_text": "E-Sports Tournament Ops",
+        "status_type": "competing"
+    },
+    "app_config": {},
+    "ticket_panels": {},
+    "ticket_customization": {
+        "claim_button_emoji": "🙋‍♂️",
+        "claim_button_text": "Claim Ticket",
+        "close_button_emoji": "🔒",
+        "close_button_text": "Close Ticket",
+        "welcome_message": "Welcome {user}! A staff member will assist you shortly.",
+        "claim_message": "✅ {staff} is now handling this ticket.",
+        "close_confirmation": "⚠️ This will permanently delete the channel. Are you sure?"
+    },
+    "modal_customization": {
+        "staff_app_questions": [
+            {
+                "label": "Why do you want to join our team?",
+                "required": true
+            },
+            {
+                "label": "Previous moderation experience?",
+                "required": true
+            },
+            {
+                "label": "How old are you?",
+                "required": true
+            }
+        ]
+    },
+    "logs_channel": null,
+    "audit_log_channel": null,
+    "transcript_channel": null,
+    "blacklist": [],
+    "staff_stats": {},
+    "system_stats": {
+        "total_apps": 0,
+        "total_tickets": 0,
+        "transcripts_sent": 0,
+        "version": "6.5",
+        "maintenance_mode": false,
+        "last_reboot": "2025-01-03"
+    },
+    "xp_system": {
+        "user_xp": {},
+        "xp_per_message": 5,
+        "xp_per_reaction": 2,
+        "xp_per_min_vc": 10,
+        "level_roles": {
+            "10": null,
+            "25": null,
+            "50": null,
+            "100": null
+        }
+    },
+    "ticket_reopen": {
+        "enabled": true,
+        "grace_period_minutes": 10,
+        "reopenable_channels": {}
+    },
+    "cooldowns": {},
+    "guild_blacklist": {},
+    "moderation": {},
+    "xp": {},
+    "staff_recruitment": {},
+    "permissions_tiers": {
+        "system_admins": [],
+        "senior_mods": [],
+        "regular_mods": [],
+        "trial_mods": [],
+        "app_reviewers": [],
+        "tournament_managers": []
+    },
+    "xp_engine": {
+        "global_enabled": true,
+        "level_up_messages": true,
+        "min_gain": 15,
+        "max_gain": 30,
+        "cooldown_seconds": 60,
+        "user_data": {}
+    },
+    "recruitment_system": {
+        "pending_channel": null,
+        "accepted_channel": null,
+        "denied_channel": null,
+        "referral_channel": null,
+        "stats": {
+            "total_apps": 0,
+            "total_accepted": 0,
+            "total_denied": 0
+        }
+    },
+    "ticket_system": {
+        "panels": {},
+        "active_tickets": {},
+        "transcript_history": []
+    },
+    "tournaments": {
+        "active_tournaments": {},
+        "registration_open": false,
+        "allowed_roles": [],
+        "banned_roles": [],
+        "registered_teams": [],
+        "max_team_size": 5,
+        "min_team_size": 1
+    },
+    "security_settings": {
+        "anti_spam_enabled": true,
+        "anti_raid_enabled": true,
+        "max_mentions": 5,
+        "max_messages_per_10s": 5,
+        "join_threshold_per_minute": 10,
+        "spam_mute_duration": 300,
+        "auto_ban_raiders": false
+    },
+    "channels": {
+        "transcripts": null,
+        "mod_logs": null,
+        "join_logs": null
+    },
+    "auto_mod": {
+        "delete_invite_links": false,
+        "delete_bad_words": false,
+        "bad_words_list": [],
+        "whitelist_channels": []
+    }
+}
